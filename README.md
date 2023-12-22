@@ -146,6 +146,9 @@ basic_stats
 </div>
 
 ![screenshot](images/histograms.png?raw=True)
+![screenshot](images/distributions.png?raw=True)
+![screenshot](images/ratingvrevenue.png?raw=True)
+![screenshot](images/revenue.png?raw=True)
 * Distribution of Movies Over Years (Histogram):
 
 * Showed an increasing trend in the number of movies over the years, peaking around 2016.
@@ -155,8 +158,9 @@ basic_stats
 * Revealed a somewhat normal but slightly left-skewed distribution, with most ratings between 6 and 8.
 * Inference: Suggests a general trend of average to good quality movies in the dataset.
 ![screenshot](images/wordcloud.png?raw=True)
-![screenshot](images/ratingvrevenue.png?raw=True)
+
 ![screenshot](images/barcharts.png?raw=True)
+![screenshot](images/top20actors.png?raw=True)
 * How I handled and grouped all the Genres accordingly.
 ```python
 # Function to categorize movies into broader genre groups
@@ -183,6 +187,14 @@ movie_data['Broad Genre'] = movie_data['Genre'].apply(lambda x: categorize_genre
 movie_data[['Title', 'Genre', 'Broad Genre']].head()
 
 ```
+![screenshot](images/piechart.png?raw=True)
+![screenshot](images/heatmap.png?raw=True)
+
+
+![screenshot](images/moviecount2.png?raw=True)
+
+![screenshot](images/pairplot.png?raw=True)
+![screenshot](images/newimage.png?raw=True)
 ###### Distribution of Movies Over Years:
 * The histogram shows a roughly increasing trend in the number of movies over the years, with a peak around 2016. This indicates a growth in movie production over the analyzed period.
 * Distribution of Movie Ratings:
