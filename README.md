@@ -38,7 +38,6 @@ basic_stats = movie_data.describe()
 basic_stats
 ```
 <div>
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
