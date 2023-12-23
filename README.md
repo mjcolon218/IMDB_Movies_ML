@@ -1,6 +1,6 @@
 ![screenshot](images/imdb2.jpg?raw=True)
 
-# IMDB Movies analysist and Revenue Prediction
+# IMDB Movies analysis and Revenue Prediction
 
 # Overview
 This project involves analyzing the IMDB Movie Dataset to predict movie revenues. The dataset includes various features such as movie ratings, genres, director, actors, and revenues. The goal is to build machine learning models to understand and predict the revenue of movies based on these features.
